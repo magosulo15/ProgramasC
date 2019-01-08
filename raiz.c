@@ -2,9 +2,8 @@
 #include <stdlib.h>
 
 
-void main(void)
-{
-	//Algoritmo de Heap
+void main(void){
+	
 
 	float f = 0.1, v = 0, a = 0, z;
 	int	i, b = 0, x;
@@ -28,15 +27,14 @@ void main(void)
 
         a = 0;
 
-		if (i == 5){
+	if (i == 5){
 
             break;
 
         }
 
-
 		for(b = 1; a < x; ++b){
-			
+				
 			z = v + (b/f);
 			a = z * z;
 
@@ -45,12 +43,13 @@ void main(void)
 				v = b;
 				goto termina;
 
-			}
 		}
-		b = b - 2;
 	}
+		b = b - 2;
+}
 		
 		termina:
 		printf("Raiz de %i = %.3f\n\n\n", x, v);
 }
-
+//Feito por Lucas Marques Silva
+//facebook---> https://www.facebook.com/lucasulo
