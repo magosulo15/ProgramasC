@@ -4,11 +4,11 @@
 
 void main(void)
 {
-
 	//Algoritmo de Heap
+
 	float f = 0.1, v = 0, a = 0, z;
 	int	i, b = 0, x;
-
+	printf("\n\n");
 	scanf("%i", &x);
 
 	for(i = 1; i <=5; ++i){
@@ -51,5 +51,6 @@ void main(void)
 	}
 		
 		termina:
-		printf("Raiz de %i = %f\n", x, v);
+		printf("Raiz de %i = %.3f\n\n\n", x, v);
 }
+
