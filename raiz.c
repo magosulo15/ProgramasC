@@ -43,13 +43,14 @@ void main(void){
 				v = b;
 				goto termina;
 
+			}
 		}
-	}
 		b = b - 2;
-}
+	}
 		
-		termina:
-		printf("Raiz de %i = %.3f\n\n\n", x, v);
+	termina:
+	printf("Raiz de %i = %.3f\n\n\n", x, v);
+
 }
 //Feito por Lucas Marques Silva
 //facebook---> https://www.facebook.com/lucasulo
